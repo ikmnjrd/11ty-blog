@@ -32,7 +32,3 @@ jobs:
           git add docs
           git commit -m "Commit by CI/CD"
           git push origin main
-      - run: |
-          mv .gitignore .temp-ignore
-          mv .ci-gitignore .gitignore
-          mv .temp-ignore .ci-gitignore
