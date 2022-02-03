@@ -1,26 +1,26 @@
 {
-  "title": "Title of the website. Update me.",
-  "url": "https://update-me.com",
-  "domain": "update-me.com",
-  "description": "Description of the website. Update me.",
+  "title": "ikmnjrd.github.io",
+  "url": "https://ikmnjrd.github.io",
+  "domain": "ikmnjrd.github.io",
+  "description": "ikmnjrd's blog with 11ty.",
   "genre": "Insert a schema.org genre",
-  "googleAnalyticsId": "GA ID. Update me. Note, that this is not compatible with the not-yet-commonly used version 4 of Google Analytics",
+  "googleAnalyticsId": "G-W6W9YD5G74",
   "sendWebVitals": false,
   "feed": {
-    "subtitle": "Subtitle. Update me.",
+    "subtitle": "ikmnjrd's blog with 11ty.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://update-me.com"
+    "id": "https://ikmnjrd.github.io"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://update-me.com/feed/feed.json"
+    "url": "https://ikmnjrd.github.io/feed/feed.json"
   },
   "author": {
-    "name": "Author Name. Update me.",
-    "twitterHandle": "update_me"
+    "name": "K.Ikeda",
+    "twitterHandle": "ikmnjrd"
   },
   "publisher": {
-    "name": "Publisher name. Update me."
+    "name": "K.Ikeda"
   }
 }
