@@ -7,6 +7,26 @@ eleventyNavigation:
   order: 3
 ---
 
+### me
 I am a person that writes stuff.
 
-This blog template is based on [eleventy-high-performance-blog](https://www.industrialempathy.com/posts/eleventy-high-performance-blog/) which itself is based on [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog).
+### likes
+
+<details>
+  <summary>Web</summary>
+  PlayStationよりも、サーバーよりもWebブラウザが好き。<br>
+  使いやすさの顕現に興味があり、アクセシビリティやパフォーマンスといった分野への興味が特に強め。
+</details>
+
+<details>
+  <summary>Pokémon</summary>
+  HSHG〜BW2時代に廃人化していた。<br>
+  今はエンジョイ勢。<br>
+</details>
+
+<details>
+  <summary>Music</summary>
+  ポップスやメタルが好き。<br>
+  特にChildren of BodomやDestrageなどの、キャッチーなギターフレーズが登場する曲が好き。<br>
+</details>
+<br>
