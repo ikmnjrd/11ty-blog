@@ -1,0 +1,38 @@
+# For deploy to ./docs
+name: deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm install
+      - run: npm run build
+      - run: |
+          rm .gitignore
+      - name: Git Setting
+        run: |
+          git config --local user.email "email@example.com"
+          git config --local user.name "GitHub Actions"
+      - name: GitHub Commit
+        run: |
+          git add docs
+          git commit -m "Commit by CI/CD"
+          git push origin main
+      - run: |
+          mv .gitignore .temp-ignore
+          mv .ci-gitignore .gitignore
+          mv .temp-ignore .ci-gitignore
