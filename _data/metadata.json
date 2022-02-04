@@ -5,7 +5,7 @@
   "description": "ikmnjrd's blog with 11ty.",
   "genre": "Insert a schema.org genre",
   "googleAnalyticsId": "G-W6W9YD5G74",
-  "sendWebVitals": false,
+  "sendWebVitals": true,
   "feed": {
     "subtitle": "ikmnjrd's blog with 11ty.",
     "filename": "feed.xml",
